@@ -1,0 +1,123 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+/* BODY */
+
+body {
+    background-image: url('../img/bc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/* HEADER */
+
+header {
+    background-image: linear-gradient(to bottom rgb(28, 9, 133));
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header li a {
+    color: #FFF;
+}
+
+header li {
+    margin: 0 15px;
+}
+
+header li:first-child { margin-left: 0px}
+header li:last-child { margin-right: 0px}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+header a:hover {
+    color: #808080;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+/* SECTION */
+
+section {
+    margin-top: 160px;
+}
+
+.blender h1 {
+    margin-left: 60px;
+    color: #FFF;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blender p {
+    display: flex;
+    align-items: center;
+    margin:60px;
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border-left: 2px solid yellow;
+    height: 90px;
+    padding-left: 10px;
+
+}
+
+button {
+    font-size: 16px;
+}
+
+button[type="button"] {
+    background: yellow;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px 20px;
+    width: auto;
+    margin: 18px;
+    border: 0;
+    font-weight: bold;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+/* JOBS */
+.jobs {
+    background-color: rgba(0, 0, 255, 0.74);
+    height: 600px;
+}
