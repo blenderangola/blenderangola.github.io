@@ -72,7 +72,7 @@ header a:hover {
 
 /* SECTION */
 .hero {
-    background-image: url(../img/bd.jpg);
+    background-image: url(../img/gallery/bd.jpg);
     background-size: cover;
     min-height: 100vh;
     color: #FFF;
@@ -182,7 +182,7 @@ header a:hover {
     padding: 100px 50px;
 }
 
-.partiners h3 {
+.partiners h3, h4 {
     text-align: center;
     color: #FFF;
     font-size: 2rem;
@@ -193,7 +193,7 @@ header a:hover {
     text-align: center;
     color: #FFF;
     max-width: 800px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 .partiners hr {
@@ -207,6 +207,7 @@ header a:hover {
 .partiners .grid {
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .partiners .grid li {
@@ -217,7 +218,7 @@ header a:hover {
 
 .partiners li img {
     margin-bottom: 30px;
-    border-radius: 50%;
+    border-radius: 4px;
     height: 160px;
     width: 160px;
     line-height: 160px;
