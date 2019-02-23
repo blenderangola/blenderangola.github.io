@@ -21,6 +21,11 @@ a:hover {
     opacity: 1;
 }
 
+/* BODY */
+body {
+    scroll-behavior: smooth;
+}
+
 /* HEADER */
 
 header {
